@@ -57,7 +57,7 @@ li a {
 
 #prog{
   color:#81BEF7;
-  font-style:italic;
+  font-weight: bold;
 }
 
 li a:hover {
