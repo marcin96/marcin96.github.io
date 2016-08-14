@@ -35,8 +35,33 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-ol, ul {
-  list-style: none;
+ul {
+    list-style-type: none;
+    margin: 4;
+    padding: 4;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 17px;
+    text-decoration: none;
+}
+
+#prog{
+  color:#81BEF7;
+  font-style:italic;
+}
+
+li a:hover {
+    color:orange;
 }
 
 table {
